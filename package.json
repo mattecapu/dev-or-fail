@@ -1,0 +1,29 @@
+{
+  "name": "dev-or-fail",
+  "version": "0.0.1",
+  "description": "CLI utility that fails if NODE_ENV is not set to \"development\"",
+  "main": "index.js",
+  "bin": "cli.js",
+  "scripts": {
+    "test": "bash ./test.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattecapu/dev-or-fail.git"
+  },
+  "keywords": [
+    "node_env",
+    "environment",
+    "cli",
+    "utility"
+  ],
+  "author": "Matteo Capucci <mattecapu@live.it>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mattecapu/dev-or-fail/issues"
+  },
+  "homepage": "https://github.com/mattecapu/dev-or-fail#readme",
+  "dependencies": {
+    "colors": "^1.1.2"
+  }
+}
