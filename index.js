@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 var colors = require('colors/safe');
 
 if (process.env.NODE_ENV !== 'development') {
